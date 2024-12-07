@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "newArchEnabled": true,
+    "name": "ProjectsSispar",
+    "slug": "ProjectsSispar",
+    "userInterfaceStyle": "automatic",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.onil.ProjectsSispar"
+    },
+    "ios": {
+      "bundleIdentifier": "com.onil.ProjectsSispar"
+    },
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "fe544c40-9c47-413d-9aec-f0486311f5d9"
+      }
+    }
+  }
+}
